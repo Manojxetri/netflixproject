@@ -1,0 +1,768 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-image: url(./back.jpg);
+    height: 70vh;
+    position: relative;
+}
+.main .opac{
+    height: 70vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.52;
+    position: absolute;
+    top: 0%;
+}
+.logo img{
+    position: relative;
+    z-index: 10;
+}
+.logo{
+    margin-left: 200px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo button{
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-style: none;
+    position: relative;
+    z-index: 10;
+    border-radius: 20px;
+    font-size: bold;
+    cursor: pointer;
+    
+}
+.logo a{
+    color: white;
+    text-decoration: none;
+}
+.logo button:hover{
+    background-color: red;
+    opacity: 0.84;
+
+}
+
+.text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 210px;
+    line-break: loose;
+}
+.text .first{
+       font-size: 50px;
+       font-weight: bold;
+       justify-content: space-between;
+       position: relative;
+       z-index: 10;
+}
+.text .second{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.text .third{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.email{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+}
+.address{
+    height: 60px;
+    width: 500px;
+    background-color: black;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    text-align: center;
+    opacity: 0.92;
+    border: 1px solid white;
+}
+.get{
+    width: 200px;
+    margin-left: 3px;
+    background-color: red;
+    border-style: none;
+    color: white;
+    font-size: 23px;;
+    border-radius: 10px;
+    width: 230px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.get:hover{
+    background-color: red;
+    opacity: 0.84;
+}
+.tv{
+    background-color: black;
+    height: 600px;
+}
+.enjoy{
+    color: white;
+    text-align: left;
+}
+.enjoy h1{
+    margin-top:250px ;
+    margin-left: 200px;
+    font-size: 45px;
+}
+.enjoy h3{
+    text-align: justify;
+    width: 700px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.enjoy img{
+    margin-top: -330px;
+    margin-left: 1000px;
+    object-fit: contain;
+    position: relative;
+}
+.enjoy video{
+    margin-top: -400px;
+    margin-bottom: 133px;
+    margin-left: 1080px;
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    border: 2px solid grey;
+    overflow: clip;
+}
+.h1{
+    border:5px solid grey;
+}
+.h2{
+    border:5px solid grey;
+}
+.download{
+    background-color: black;
+    height: 750px;
+}
+.your h1{
+    width: 800px;
+    color: white;
+    margin-left:800px ;
+    margin-top: 350px;
+    font-size: 50px;
+    text-align: left;
+}
+.your h3{
+    color: white;
+    margin-left: 800px;
+    margin-top: 20px;
+}
+.your img{
+    margin-top: -500px;
+    margin-bottom: -10px;
+}
+.strang{
+   width: 450px;
+   height: 100px;
+   border: 1px solid white;
+   border-radius: 10px;
+   margin-top: -200px;
+   background-color: black;
+   position: relative;
+   margin-left: 180px;
+
+}
+.strang h3{
+    margin-left: 120px;
+    align-items: center;
+}
+.strang img{
+    height: 80px;
+    width: 70px;
+    margin-left: 10px;
+    
+}
+.strang p{
+    color: blue;
+    margin-left: 120px;
+}
+
+.watch{
+    height: 360px;
+    background-color: black;
+}
+.h3{
+    border:5px solid grey;
+}
+.watch h1{
+    font-size: 40px;
+    width: 300px;
+    color: white;
+    margin-left: 550px;
+    margin-top: 80px;
+}
+.watch h3{
+    color: white;
+    width: 400px;
+    word-spacing: normal;
+    font-size: 20px;
+    margin-left: 550px;
+    text-align: left;
+}
+.h4{
+    border:5px solid grey;
+}
+.kid{
+    height: 650px;
+    background-color: black;
+}
+.prof img{
+    margin-top: 80px;
+    margin-left: 260px;
+    height: 550px;
+}
+.prof h1{
+    margin-top: -400px;
+    color: white;
+    margin-left: 1000px;
+    font-size: 40px;
+}
+.prof h3{
+    color: white;
+    margin-left: 1000px;
+    width: 700px;
+}
+.h5{
+    border:5px solid grey;
+}
+.freq{
+    background-color: black;
+    height: 960px;
+}
+.ask h1{
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 50px;
+}
+.what{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    color: white;
+    width: 1200px;
+    background-color: rgb(45, 45, 45);;
+    margin: 24px auto;
+    font-size: 24px;
+    margin-top: -15px;  
+    cursor: pointer;
+}
+.buto{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0px; 
+      
+}
+.to h3{
+    color: white;
+    text-align: center;
+    
+}
+.contact{
+    background-color: black;
+    height: 550px;
+}
+.ques{
+    height: 400px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.ques a{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.ques li{
+    margin-top: 25px;
+    cursor: pointer;
+
+}
+.ques p{
+    color: white;
+    margin-top: 30px;
+}
+
+.sel button{
+    color: white;
+    background-color:black;
+    height: 30px;
+    width: 100px;
+    margin-top:30px ;
+    border-radius: 10px;
+}
+.help{
+    height: 400px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -350px;
+    margin-left: 600px;
+}
+.help a{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.help li{
+    margin-top: 25px;
+    cursor: pointer;
+
+}
+.account{
+    height: 400px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -170px;
+    margin-left: 400px;
+}
+.account a{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.account li{
+    margin-top: 25px;
+    cursor: pointer;
+
+}
+.media{
+    height: 400px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -170px;
+    margin-left: 400px;
+}
+.media a{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.media li{
+    margin-top: 25px;
+    cursor: pointer;
+
+}
+.do{
+    margin-left: 300px;
+    margin-top: -15px;
+}
+@media  screen and (max-width: 1000px)
+{
+    .main{
+        background-image: url(./back.jpg);
+        height: 70vh;
+        position: relative;
+    }
+    .main .opac{
+        height: 70vh;
+        width: 100%;
+        background-color: black;
+        opacity: 0.52;
+        position: absolute;
+        top: 0%;
+    }
+    .logo img{
+        position: relative;
+        z-index: 10;
+        height: 50px;
+    }
+    .logo{
+        margin-left: 1px;
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo button{
+        background-color: red;
+        color: white;
+        width: 100px;
+        height: 30px;
+        border-style: none;
+        position: relative;
+        z-index: 10;
+        border-radius: 20px;
+        font-size: bold;
+        cursor: pointer;
+        margin-left: 160px;
+    }
+    .logo button:hover{
+        background-color: black;
+        opacity: 0.84;
+    }
+    .text{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        margin-top: 200px;
+        line-break: loose;
+    }
+    .text .first{
+           font-size: 18px;
+           font-weight: bold;
+           justify-content: space-between;
+           position: relative;
+           z-index: 10;
+    }
+    .text .second{
+        font-size: 13px;
+        margin-top: 20px;
+    }
+    .text .third{
+        font-size: 13px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .email{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .address{
+        height: 35px;
+        width: 400px;
+        background-color: black;
+        color: white;
+        border-style: none;
+        border-radius: 10px;
+        text-align: center;
+        opacity: 0.92;
+        border: 1px solid white;
+    }
+    .get{
+        width: 200px;
+        margin-left: 3px;
+        background-color: red;
+        border-style: none;
+        color: white;
+        font-size: 23px;;
+        border-radius: 10px;
+        width: 230px;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+    .get:hover{
+        background-color: red;
+        opacity: 0.84;
+    }
+    .tv{
+        background-color: black;
+        height: 600px;
+        width: 1000px;
+    }
+    .enjoy{
+        color: white;
+        text-align: center;
+    }
+    .enjoy h1{
+        width: 200px;
+        height: 50px;
+        margin-top:30px ;
+        margin-left: 90px;
+        font-size: 20px;
+    }
+    .enjoy h3{
+        text-align: center;
+        width: 400px;
+        height: 100px;
+        margin-left: 10px;
+        
+    }
+    .enjoy img{
+        width: 300px;
+        height: 700px;
+        margin-top: -200px;
+        margin-left: -550px;
+        object-fit: contain;
+        position: relative;
+    }
+    .enjoy video{
+        height: 250px;
+        width: 250px;
+        margin-top: -1900px;
+        margin-bottom: 230px;
+        margin-left: -280px;
+        object-fit: contain;
+        overflow-clip-margin: content-box;
+        overflow: clip;
+        border: none;
+    }
+    .h1{
+        border:5px solid grey;
+    }
+    .h2{
+        border:5px solid grey;
+    }
+    .download{
+        background-color: black;
+        height: 750px;
+    }
+    .your h1{
+        margin-top: 50px;
+        width: 300px;
+        color: white;
+        margin-left: 80px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .your h3{
+        color: white;
+        margin-left: 8px;
+        margin-top: 11px;
+        text-align: center;
+    }
+    .your img{
+        height: 400px;
+        width: 400px;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    .strang{
+       width: 350px;
+       height: 80px;
+       border: 1px solid white;
+       border-radius: 10px;
+       margin-top: -100px;
+       background-color: black;
+       position: relative;
+       margin-left: 40px;
+    
+    }
+    .strang h3{
+        margin-left: 10px;
+        align-items: center;
+        font-size: 20px;
+    }
+    .strang img{
+        height: 50px;
+        width: 40px;
+        margin-left: 1px;
+        margin-top: -190px;
+        margin-bottom: 2px;
+        
+    }
+    .strang p{
+        color: blue;
+        margin-left: 100px;
+    }
+    .watch{
+        height: 360px;
+        background-color: black;
+    }
+    .h3{
+        border:5px solid grey;
+    }
+    .watch h1{
+        font-size: 25px;
+        text-align: center;
+        color: white;
+        margin-left: 50px;
+        margin-top: 80px;
+    }
+    .watch h3{
+        color: white;
+        width: 400px;
+        word-spacing: normal;
+        font-size: 15px;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .h4{
+        border:5px solid grey;
+    }
+    .kid{
+        height: 650px;
+        background-color: black;
+    }
+    .prof img{
+        margin-top: 250px;
+        margin-left: 20px;
+        height: 320px;
+    }
+    .prof h1{
+        margin-top: -500px;
+        text-align: center;
+        color: white;
+        margin-left: 10px;
+        font-size: 25px;
+    }
+    .prof h3{
+        color: white;
+        margin-left: 10px;
+        width: 400px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .h5{
+        border:5px solid grey;
+    }
+    .freq{
+        background-color: black;
+        height: 960px;
+    }
+    .ask h1{
+        color: white;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    .what{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+        color: white;
+        width: 320px;
+        background-color: rgb(45, 45, 45);;
+        margin: 24px auto;
+        font-size: 15px;
+        margin-top: -15px;  
+        cursor: pointer;
+    }
+    .buto{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+          
+    }
+    .to h3{
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        
+    }
+    .contact{
+        background-color: black;
+        height: 850px;
+    }
+    .ques{
+        height: 400px;
+        width: 330px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 1px;
+        margin-left: 20px;
+    }
+    .ques a{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        font-size: 15px;
+    }
+    .ques li{
+        margin-top: 25px;
+        cursor: pointer;
+    
+    }
+    .ques p{
+        color: white;
+        margin-top: 15px;
+    }
+    
+    .sel button{
+        color: white;
+        background-color:black;
+        height: 30px;
+        width: 100px;
+        margin-top:520px ;
+        border-radius: 10px;
+    }
+    .help{
+        height: 400px;
+        width: 330px;
+        display: flex;
+        flex-direction: column;
+        margin-top: -180px;
+        margin-left: 20px;
+    }
+    .help a{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .help li{
+        margin-top: 25px;
+        cursor: pointer;
+    
+    }
+    .account{
+        height: 400px;
+        width: 330px;
+        display: flex;
+        flex-direction: column;
+        margin-top: -8px;
+        margin-left: 2px;
+    }
+    .account a{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .account li{
+        margin-top: 25px;
+        cursor: pointer;
+    
+    }
+    .media{
+        height: 400px;
+        width: 330px;
+        display: flex;
+        flex-direction: column;
+        margin-top: -550px;
+        margin-left: 250px;
+    }
+    .media a{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .media li{
+        margin-top: 25px;
+        cursor: pointer;
+    
+    }
+    .do{
+        margin-left: 300px;
+        margin-top: -15px;
+    }
