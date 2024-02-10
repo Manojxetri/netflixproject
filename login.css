@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-image: url(./back.jpg);
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.main .opac{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.52;
+    position: absolute;
+    top: 0%;
+}
+.logo img{
+    position: relative;
+    z-index: 10;
+    margin-left: 200px;
+}
+.box{
+    background-color: black;
+    height: 700px;
+    width: 500px;
+    position:relative;
+    opacity: 0.84;
+    margin-left: 650px;
+    margin-top: 50px;
+    z-index: 10;
+}
+.box h1{
+    color: white;
+    display: flex;
+    position: static;
+    
+}
+.box p{
+    color: white;
+    display: flex;
+    position: static;
+    
+}
+.box span{
+    color: white;
+    display: flex;
+    position: static;
+    
+}
+.first{
+    height: 400px;
+    width: 500px;
+    display: flex;
+    background-color:;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+
+}
+.first h1{
+    margin-left: 50px;
+}
+.first #email{
+    height: 55px;
+    width: 360px;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: -30px;
+    background-color: rgba(20, 20, 20, 0.897);
+    opacity: 0.88;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+}
+.first #pass{
+    height: 55px;
+    width: 360px;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: -30px;
+    background-color: rgba(20, 20, 20, 0.897);
+    opacity: 0.88;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+}
+.first button{
+    height: 55px;
+    width: 360px;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: -30px;
+    background-color: red;
+    border: 1px solid white;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+.first p{
+    margin-left: 160px;
+    margin-top: -30px;
+    font-weight: bolder;
+    position: relative;
+    z-index: 10;
+}
+.first a{
+    color: white;
+    text-decoration: none;
+}
+.first a:hover{
+    text-decoration: underline;
+}
+.second{
+    margin-top: 50px;
+    /* background-color: aqua; */
+}
+.second input{
+    height: 23px;
+    width: 23px;
+    margin-left: 55px;   
+}
+.second span{
+    margin-top: -20px;
+    margin-left: 90px;
+}
+.second #new{
+    margin-left: 55px;
+    margin-top: 20px;
+}
+.second #sign{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.second #sign:hover{
+    text-decoration: underline;
+}
+.second #page{
+    /* background-color: aqua; */
+    color: gray;
+    font-weight: lighter;
+    margin-top: 20px;
+    text-align: justify;
+    width: 400px;
+    margin-left: 55px;
+    font-size: 15px;
+}
+.second #learn{
+    color: blue;
+    font-size: 15px;
+    margin-left: 150px;
+    text-decoration: none;
+}
+#learn:hover{
+    text-decoration: underline;
+}
+.third{
+    background-color:black;
+    height: 400px;
+    width: 100%;
+    position:relative;
+    opacity: 0.84;
+    margin-top: 50px;
+    color: white;
+}
+.grid{
+    margin-left: 250px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    row-gap: 25px;
+}
+.one
+{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.two{
+    grid-row: 2;
+    grid-column: 1;
+}
+.three{
+    grid-row: 2;
+    grid-column: 2;
+}
+.four{
+    grid-row: 2;
+    grid-column: 3;
+}
+.five{
+    grid-row: 2;
+    grid-column: 4;
+}
+.six{
+    grid-row: 3;
+    grid-column: 1;
+}
+.seven{
+    grid-row: 3;
+    grid-column: 2;
+}
+.grid a{
+    color: white;
+    cursor: pointer;
+}
+.one a{
+    text-decoration: none;
+}
+.one a:hover{
+    text-decoration: underline;
+}
