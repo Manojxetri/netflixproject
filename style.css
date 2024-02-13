@@ -451,7 +451,7 @@
     .email{
         position: relative;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         margin-top: 40px;
     }
@@ -477,6 +477,8 @@
         width: 230px;
         font-weight: bolder;
         cursor: pointer;
+        margin-top: 12px;
+        margin-left: 62px;
     }
     .get:hover{
         background-color: red;
