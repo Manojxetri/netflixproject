@@ -13,7 +13,7 @@
  .help img{
     height: 40px;
     margin-top: 10px;
-    margin-left: 180px;
+    margin-left: 450px;
 }
 .help span{
     font-size: 40px;
@@ -31,20 +31,77 @@
     height:30px;
     width: 100px;
     margin-top:18px ;
-    margin-left: -70px;
+    margin-left: -250px;
     background-color: black;
     color: white;
     border-style: none;
-    border: 1px solid white;
-    border-radius: 10px;
+    border: 1px solid;
+    border-radius: 4px;
 }
 .in{
     height:30px;
     width: 100px;
     margin-top:18px ;
-    margin-left: 10px;
+    margin-left: 0px;
     background-color: red;
-    border-radius: 10px;
+    border-radius: 4px;
     color: white;
     border-style: none;
+}
+h1{
+    margin-left: 550px;
+    margin-top: 30px;
+}
+.first{
+    margin-left: 550px;
+    margin-top: 10px;
+}
+input{
+    width: 700px;
+    height: 40px;
+}
+h4{
+    margin-top: 30px;
+}
+hr{
+    width: 700px;
+    margin-top: 30px;
+}
+.first a{
+    color: black;
+    display: block;
+    height: 50px;
+    margin-top: 10px;
+}
+.first span{
+    margin-left: 10px;
+}
+.second{
+    margin-top: 100px;
+    background-image: linear-gradient(to right top,black,black,red);
+    height: 300px;
+}
+.grid
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: antiquewhite;
+    margin-left: 525px;
+    margin-top: 40px;
+}
+.grid a{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 25px;
+    text-decoration: none;
+}
+select{
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    border: 1px solid white;
+    color: wheat;
 }
